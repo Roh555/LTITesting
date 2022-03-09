@@ -1,2 +1,14 @@
-rey43yeryh
-update
+@Test
+public void t1(){
+
+driver.findElement(By.id("login")).click();
+}
+
+@Test 
+public void t2(){
+
+driver.findElement(By.id("username")).sendKeys("User1");
+
+driver.findElement(By.id("password")).sendKeys("User1");
+
+}
